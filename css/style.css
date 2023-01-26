@@ -103,7 +103,7 @@ p{
     position: absolute!important;
     border-color: #1abc9c!important;
     top: 95%;
-    left: 42%;
+    left: 44%;
     background-color: #1abc9c!important;
     padding: 5px 50px!important;
     font-family: 'Rokkitt'!important;
@@ -111,4 +111,35 @@ p{
 .btn-roma:hover{
     background-color: #128672!important;
     border-color: #128672!important;
+}
+/*text
+---------------------------------*/
+.text{
+    margin-top: 155px;
+}
+.text__inner{
+    display: flex;
+    justify-content: center;
+
+}
+.text__title{
+    font-size: 36px;
+    color: #1abc9c ;
+    font-weight: 700;
+}
+.text__text{
+    margin-top: 50px;
+    font-size: 18px;
+    color: #95a5a6;
+    width: 768px;
+
+}
+/*triangle
+------------------------------------*/
+.triangle{
+    margin-top: 80px;
+}
+.triangle__item{
+    width: 33.3333%;
+
 }
