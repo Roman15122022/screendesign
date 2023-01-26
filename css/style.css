@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    font-family: 'EB Garamond', sans-serif;!important;
+    color: #95a5a6!important;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+*,
+*:after,
+*:before{
+    box-sizing: border-box;
+}
+p{
+    margin: 0 0 10px;
+}
+/*Container
+--------------------------------------*/
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+/*header
+-------------------------------------*/
+.header{
+    background: url("");
+}
+.logo{
+    font-size: 20px;
+}
+.header__nav{
+    font-size: 19px;
+
+}
+.header__nav a{
+    text-decoration: none;
+    color: white;
+}
