@@ -11,22 +11,33 @@
             crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;700&family=Rokkitt&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Rokkitt&display=swap"
           rel="stylesheet">
     <title>Screendesign</title>
 </head>
 <body>
 
-<section class="header">
+<section class="header position-relative">
     <div class="container">
-        <div class="d-flex justify-content-between">
+        <div class=" header__inner d-flex justify-content-between">
             <div class="logo text-uppercase">Logo</div>
             <div class="header__nav text-uppercase">
-                <a  href="#">Start</a>
-                <a href="#">about me</a>
-                <a  href="#">work</a>
-                <a  href="#">contact</a>
+                <a class="header__item active" href="#">Start</a>
+                <a class="header__item" href="#">about me</a>
+                <a class="header__item" href="#">work</a>
+                <a class="header__item" href="#">contact</a>
             </div>
+        </div>
+
+        <div class="header__content">
+            <div class="header__title">May I introduce myself?</div>
+        </div>
+        <div class="header__content">
+            <div class="header__text">Frontend Design | UI/UX Design</div>
+        </div>
+
+        <div class="header__button ">
+            <div class="btn btn-primary text-uppercase btn-roma">go ahead</div>
         </div>
     </div>
 </section>
