@@ -101,6 +101,7 @@ p{
 .btn-roma{
     font-size: 24px!important;
     position: absolute!important;
+    z-index: 5!important;
     border-color: #1abc9c!important;
     top: 95%;
     left: 44%;
@@ -108,9 +109,26 @@ p{
     padding: 5px 50px!important;
     font-family: 'Rokkitt'!important;
 }
+.btn-roma__after{
+    content: '';
+    background-color: #1abc9c;
+    width: 238px;
+    height: 61px;
+    top: 93.5%;
+    left: 43.5%;
+    position: absolute;
+    z-index: 1;
+    opacity: .5;
+
+    
+}
 .btn-roma:hover{
     background-color: #128672!important;
     border-color: #128672!important;
+}
+.header__button:hover .btn-roma__after{
+    background-color: #128672;
+    transition: all .2s linear;
 }
 /*text
 ---------------------------------*/
@@ -139,7 +157,106 @@ p{
 .triangle{
     margin-top: 80px;
 }
-.triangle__item{
-    width: 33.3333%;
+.triangle__img{
+    text-align: center;
+    margin-bottom: 35px;
+}
+.triangle__title{
+    color: #1abc9c;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.triangle__text{
+    text-align: justify;
+    width: 265px;
+    margin: 0 auto;
+}
+.border__roma{
+    border-bottom: 1px solid #e4e8e8;
+    padding-bottom: 72px;
+}
+/*photo
+-------------------------*/
+.photo{
+    margin-top: 80px;
+}
+.photo__img{
+    opacity: .5;
+}
+.photo__bg{
+    background-color: #e0b7b5;
+    display: inline-block;
+}
+.photo__content{
+    position: absolute;
+    top: 73%;
+    left: 5%;
+    z-index: 5;
+    opacity: 0;
+}
+.photo__title{
+    color: white;
+    font-size: 29px;
+    font-family: 'Rokkitt', sans-serif;
+}
+.photo__text{
+    font-size: 15px;
+    color: #297465;
+}
+.photo__content-before{
+    content: '';
+    width: 400px;
+    height: 90px;
+    top: 70%;
 
+    background-color: #1abc9c;
+    position: absolute;
+    z-index: 1;
+}
+.photo__content-after{
+    content: '';
+    height: 8px;
+    width: 400px;
+    background-color: #1abc9c;
+    position: absolute;
+    z-index: 1;
+    top: 68%;
+    opacity: .5;
+}
+.photo__icon{
+    color: white;
+    position: absolute;
+    top: 7%;
+    left: 84%;
+    border: 1px solid #1abc9c;
+    padding: 7px 10px 3px 10px ;
+    background-color: #1abc9c;
+    z-index: 5;
+}
+.photo__icon-after{
+    content: '';
+    position: absolute;
+    z-index: 1;
+    width: 52px;
+    height: 50px;
+    background-color: #1abc9c;
+    top: 4.5%;
+    left: 82.5%;
+    opacity: .5;
+}
+.photo__div{
+    opacity: 0;
+}
+.photo__bg:hover .photo__img{
+    opacity: 1;
+    transition: all .2s linear;
+}
+.photo__bg:hover .photo__content{
+    opacity: 1;
+    transition: all .2s linear;
+}
+.photo__bg:hover .photo__div{
+    opacity: 1;
+    transition: all .2s linear;
 }
