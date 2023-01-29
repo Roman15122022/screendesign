@@ -225,6 +225,7 @@ p{
     opacity: .5;
 }
 .photo__icon{
+    cursor: pointer;
     color: white;
     position: absolute;
     top: 7%;
@@ -259,4 +260,84 @@ p{
 .photo__bg:hover .photo__div{
     opacity: 1;
     transition: all .2s linear;
+}
+.btn-roma2{
+    display: block!important;
+    background-color: #1abc9c!important;
+    max-width: 220px!important;
+    margin: 80px auto;
+    font-family: 'Rokkitt'!important;, sans-serif;
+    font-size: 24px!important;
+
+}
+.btn-roma2 i{
+    font-size: 16px!important;
+    padding-left: 3px!important;
+}
+.border__roma2{
+    border-bottom: 1px solid #e4e8e8;
+
+}
+/*Contact
+------------------------------------*/
+.contact{
+    margin-top: 70px;
+
+}
+.contact__title{
+    font-size: 60px;
+    font-family: 'Rokkitt',sans-serif;
+    color: #1abc9c;
+    margin-bottom: 60px;
+}
+.contact__input{
+    width: 90%;
+    height: 70px;
+    background-color: #e4e8e8;
+    font-size: 30px;
+    font-family: 'Rokkitt',sans-serif;
+    color: #cecece;
+    padding-left: 10px;
+    border-color: transparent;
+
+}
+.contact__input::placeholder{
+    color: #cecece;
+    font-size: 30px;
+    font-family: 'Rokkitt',sans-serif;
+
+}
+
+.add{
+    height: 270px;
+    margin-top: 30px;
+    width: 95%;
+    padding-bottom: 200px;
+}
+
+/*footer
+--------------------------*/
+.footer{
+    margin-top: 155px;
+    height: 250px;
+    background-color: #1abc9c;
+}
+.footer__icon{
+    font-size: 60px;
+    color: #1abc9c;
+    border: 6px solid #1abc9c ;
+    padding-top: 5px;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    top: -44px;
+    left: 30%;
+}
+.footer__text{
+    margin-top: 150px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Rokkitt',sans-serif;
+
 }
