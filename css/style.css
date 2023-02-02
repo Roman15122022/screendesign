@@ -341,3 +341,16 @@ p{
     font-family: 'Rokkitt',sans-serif;
 
 }
+
+@media (max-width: 991px) {
+    /*btn*/
+    .btn-roma__after{
+        left: 36%;
+    }
+    .btn-roma{
+        left: 37%;
+    }
+    .header__title{
+        font-size: 46px;
+    }
+}
